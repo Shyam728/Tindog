@@ -1,0 +1,533 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.bg-pink {
+    background-color: rgb(235, 60, 89);
+}
+
+.bg-orange {
+    background-color: rgb(254, 73, 73);
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+main {
+    height: 42rem;
+}
+
+navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 4rem;
+    color: #fff;
+}
+
+.logo:hover {
+    color: #fff;
+}
+
+.navbar-ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-li {
+    padding: 1rem;
+}
+
+.nav-a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: rgb(206, 203, 203)
+}
+
+.nav-a:hover {
+    text-decoration: none;
+    color: aliceblue
+}
+
+
+
+.btns {
+    font-size: 1.3rem;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.btnn {
+    padding: .5rem 1rem;
+    text-decoration: none;
+    /* margin:1rem */
+}
+
+.ios {
+    border-radius: .5rem;
+    border: 2px solid #000;
+    color: white;
+    background-color: #000;
+}
+
+.ios:hover {
+    border-radius: .5rem;
+    border: 2px solid #fff;
+    color: #000;
+    background-color: #fff;
+}
+
+.play {
+    border-radius: .5rem;
+    border: 2px solid #fff;
+    color: white;
+    /* background-color: #000; */
+}
+
+.play:hover {
+    border-radius: .5rem;
+    border: 2px solid #fff;
+    color: black;
+    background-color: #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 6rem;
+    height: 30rem;
+    overflow: hidden;
+}
+
+.hero .hero-text h1 {
+    width: 30rem;
+    font-size: 4rem;
+    color: #fff
+}
+
+.hero .bottom-text h2 {
+    text-align: center;
+    width: 50rem;
+    font-size: 4rem;
+    color: #fff
+}
+
+
+.hero-img img {
+    height: 36rem;
+    transform: rotate(10deg);
+}
+
+
+.boxx {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 6rem;
+    padding-bottom: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardd h2 {
+    margin: 1rem 0;
+}
+
+.cardd p {
+    text-align: center;
+    width: 13rem;
+}
+
+.icon {
+    color: rgb(254, 73, 73);
+}
+
+.review {
+    background-color: rgb(254, 73, 73);
+    color: rgb(255, 255, 255);
+    padding: 8rem 0;
+    text-align: center;
+}
+
+.review h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    width: 50rem;
+    text-align: center;
+}
+
+.testimonials {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials img {
+    border-radius: 50%;
+    height: 5rem;
+    text-align: center
+}
+
+.testimonials span {
+    margin: 0 1rem
+}
+
+.sponsors {
+    background-color: rgb(254, 73, 73);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem;
+}
+
+.sponsors img {
+    height: 2rem;
+}
+
+#pricing {
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing h2 {
+    font-size: 3rem;
+    font-weight: bold !important;
+}
+
+.pricing p {
+    color: rgb(206, 205, 205);
+}
+
+.pricing-box {
+    /* width: 60rem; */
+    overflow: hidden;
+    display: flex;
+    padding: 5rem 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pricing-box .cardd {
+    border: 1px solid rgb(209, 207, 207);
+    margin: 0 3rem;
+
+}
+
+.pricing-box .cardd h3 {
+    text-align: center;
+    padding: .5rem;
+    width: 100%;
+    background-color: rgb(209, 207, 207);
+}
+
+.pricing-box .cardd h4 {
+    text-align: center;
+    padding: .5rem;
+    width: 100%;
+}
+
+.pricing-box .cardd a {
+    text-align: center;
+    cursor: pointer;
+    margin: .3rem;
+    padding: .3rem;
+    width: 70%;
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgb(27, 26, 26) !important;
+    border-radius: .5rem;
+}
+
+.hover:hover {
+    background-color: rgb(27, 26, 26);
+    color: white !important;
+}
+
+.bottom-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    padding-top: 4rem;
+    /* padding-bottom:1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials i {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+/* .socials i:hover{
+    margin : 0 .5rem;
+    color: rgb(235, 60, 89);
+} */
+
+.fa-twitter:hover {
+    color: #00bfff
+}
+
+.fa-facebook:hover {
+    color: #3b5998
+}
+
+.fa-envelope:hover {
+    color: #EA4335
+}
+
+.fa-instagram:hover {
+    /* color: #4c68d7 */
+    color: #8a3ab9
+}
+
+.copyright {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1rem;
+}
+
+
+
+
+@media only screen and (max-width: 940px) {
+    navbar .logo {
+        font-size: 2rem;
+        justify-content: space-evenly;
+    }
+
+    main {
+        height: 28rem;
+    }
+
+    .hero {
+        height: 18rem;
+    }
+
+    .hero .hero-text h1 {
+        width: 20rem;
+        font-size: 2rem;
+    }
+
+    .hero-img img {
+        height: 20rem;
+        transform: rotate(3deg);
+    }
+
+    .btns {
+        font-size: .7rem;
+        width: 13rem;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+    }
+
+    .boxx {
+        flex-wrap: wrap;
+        padding: 4rem 0;
+    }
+
+    .boxx .cardd {
+        margin: 1rem;
+    }
+
+    .review {
+        padding: 2rem 0;
+    }
+
+    .review h2 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1rem;
+        width: 25rem;
+        text-align: center;
+    }
+
+    .sponsors {
+        padding: 3rem;
+    }
+
+    .sponsors .spnsr-img img {
+        margin: 1rem;
+    }
+
+    .pricing-box {
+        width: 30rem;
+        overflow: hidden;
+        display: flex;
+        padding: 5rem 0;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .pricing h2 {
+        font-size: 2rem;
+    }
+
+    .pricing-box {
+        flex-wrap: wrap;
+    }
+
+    .pricing-box .cardd {
+        border: 1px solid rgb(209, 207, 207);
+        margin: 1rem;
+        width: 40%;
+
+    }
+
+    .pricing-box .cardd:nth-child(3) {
+        width: 100%;
+    }
+
+    /* .pricing-box .cardd h3 {
+    font-size: 1rem;
+}
+
+.pricing-box .cardd h4 {
+    font-size:1rem;
+}
+.pricing-box .cardd p{
+    font-size:.7rem;
+} */
+
+
+    .hero .bottom-text h2 {
+        width: auto;
+        font-size: 2rem;
+    }
+
+}
+
+
+@media screen and (max-width:520px) {
+    navbar {
+        flex-direction: column;
+    }
+
+    .navbar-ul {
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .nav-li {
+        padding: 0.3rem
+    }
+
+    main {
+        height: 10rem;
+    }
+
+    .hero {
+        height: 36rem;
+        /* justify-content:space-between; */
+        align-items: center;
+        padding: 2rem;
+        height: 13rem;
+    }
+
+    .hero .hero-text h1 {
+        font-size: 1.2rem;
+        width: 9rem;
+    }
+
+    .hero-img img {
+        height: 12rem;
+        transform: rotate(0deg)
+    }
+
+    .btns {
+        font-size: .7rem;
+        width: 11rem;
+        margin-top: 1rem;
+        display: inline-block;
+    }
+
+    .btnn {
+        margin: 0 4px;
+        padding: .4rem;
+        text-decoration: none;
+        /* margin: 1rem; */
+        font-size: 0.5rem;
+    }
+
+    .info {
+        margin-top: 14rem;
+    }
+
+    .review h2 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1rem;
+        width: 15rem;
+        text-align: center;
+    }
+
+    .review .testimonials img {
+        height: 3.5rem;
+    }
+
+    #pricing {
+        margin: 0 auto;
+        padding: 5rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pricing-box {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .pricing-box .cardd {
+        border: 1px solid rgb(209, 207, 207);
+        margin: 1rem;
+        width: 80%;
+    }
+
+    .pricing h2 {
+        font-size: 2rem;
+        align-items: center;
+        padding: 1rem;
+    }
+
+}
